@@ -53,7 +53,7 @@ github_username: tyakamyz
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   7년 차 Java & Spring 기반 Backend 업무를 담당하고 있는 박시현입니다.<br>
-  SI/SM & 스타트업 경력으로 <mark>다양한 분석/설계 경험</mark>을 가지고 있습니다.<br>
+  SI/SM 사업 & 스타트업 재직 경험을 통하여 <mark>다양한 분석/설계 경험</mark>을 가지고 있습니다.<br>
   
   주도적으로 프로젝트 내에 개선점을 찾기 위해 노력하여,<br>
   기존 관리 시스템 솔루션에서 서비스 페이지를 운영할 수 있도록 고도화하였습니다.<br>
@@ -105,12 +105,19 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Etc.
+    layout: list
+    content:
+      - layout: left
+        title: 개인 블로그
+        link: https://tong-dev.tistory.com/
+        description: | # this will include new lines to allow paragraphs
+          학습한 내용과 업무 경험 등을 정리한 개인 블로그 입니다.
+      - layout: left
+        title: 상세 기술경력서
+        description: | # this will include new lines to allow paragraphs
+          [PDF 파일 다운로드](https://github.com/tyakamyz/node_project/raw/master/uploads/1558364242481.pdf)<br>
+          경력 및 프로젝트 내용을 상세하게 기술한 PDF 파일입니다.
 
 # Footer
 footer_show_references: true
