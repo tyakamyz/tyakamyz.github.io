@@ -68,14 +68,13 @@ content:
       - layout: left
         title: 스카이랩스
         sub_title: 백엔드 개발자
-        caption: 2020.07 ~ 2022.06
+        caption: 2020.07 ~ 2022.05
         link: https://skylabs.io/ko/
         quote: >
           IoT 기술을 활용한 웨어러블 모니터링 서비스
         description: | # this will include new lines to allow paragraphs
           - 구독 결제 서비스 개발
           - 서버 성능 개선
-          - BDD 도입 추진
           - APP & WEB 서버 개발 및 운영
       - layout: left
         title: 한국문헌정보기술
@@ -83,17 +82,16 @@ content:
         caption: 2016.03 ~ 2020.07
         link: http://www.kait.co.kr/
         quote: >
-          수집/기록 아카이브 시스템 구축 사업
+          수집/기록 관리시스템 SI/SM 구축 사업
         description: | # this will include new lines to allow paragraphs
-          - 서비스 기능 고도화
+          - 서비스 기능 고도화하여 [감어인M](http://archivecenter.net/kait/archive/Webpage.do?page_id=59) 솔루션 구축
           - 색상 검색 기능 개발
-          - DB 마이그레이션 작업
           - 2명의 그룹원을 이끄는 <mark>그룹장</mark>으로 PL업무 수행
-  - title: 프로젝트 # Title for the section
+  - title: 대표 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 구독 결제 서비스 개발
+        title: 구독 결제 서비스
         sub_title: 스카이랩스
         caption: 2021.09 ~ 2022.03
         quote: >
@@ -105,6 +103,7 @@ content:
             - 해외 결제: paypal 결제 모듈
           - 사업상 문제로 오픈이 지연되어 결제 기능과 배송 처리 기능만 구현
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
         title: 서버 성능 개선
         sub_title: 스카이랩스
         quote: >
@@ -113,17 +112,40 @@ content:
           - Jmiter, NewRelic 어플리케이션을 사용하여 [부하 테스트 및 모니터링 진행](https://tong-dev.tistory.com/30?category=959546)
           - 메모리 초과 장애 개선
           - 동일한 서버 비용으로 더 많은 트래픽을 처리할 수 있도록 개선
-  - title: 교육 & 학습
+      - layout: left
+        title: 감어인M 솔루션 개발
+        sub_title: 한국문헌정보기술
+        caption: 2018.07 ~ 2018.12
+        quote: >
+          기존 수집관리시스템 솔루션에 서비스 관리 기능을 추가하여 서비스 페이지를 운영할 수 있도록 고도화
+        description: | # this will include new lines to allow paragraphs
+          - 서비스 메뉴를 생성하여 서비스 페이지를 연계할 수 있는 기능 개발
+          - 엑셀 파일을 업로드하여 대량의 데이터를 일괄 업로드 할 수 있는 기능 개발
+          - 반복적으로 발생하는 요구사항을 처리하여 개발 공수 감소
+          - 안정적으로 프로젝트 수행 완료. 이후 타 사업에서 [감어인M](http://archivecenter.net/kait/archive/Webpage.do?page_id=59)이라는 명칭의 패키지 솔루션으로 납품하여 회사 매출에 큰 기여를 하는 성과를 거둠
+      - layout: left
+        title: 색상 검색 기능 개발
+        sub_title: 한국문헌정보기술
+        caption: 2018.07 ~ 2018.12
+        quote: >
+          업로드된 이미지 파일의 대표 색상을 추출하여, 색상 검색이 가능하도록 기능 개발
+        description: | # this will include new lines to allow paragraphs
+          - [오픈 소스](https://github.com/SvenWoltmann/color-thief-java)와 Color 클래스를 활용하여 대표 색상을 추출한 뒤 RGB 색상 모델을 HSB 색상 모델로 변경하여 범위값을 도출하는 방식으로 개발
+          - 9가지 대표 색상으로 검색 가능하도록 개발
+
+  - title: 교육
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        title: 우아한 테크캠프 Pro 4기
+        link: https://edu.nextstep.camp/c/lqsBs7x0/
+        caption: 2022.05 ~ 2022.07
         quote: >
-          Short institution or course description (optional)
+          경력자를 대상으로 진행하는 과제 형식의 교육 참가
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          - 2주일 간의 프리코스를 통해 60명 선발 (4기 경쟁률 약 7:1)
+          - <mark>우수 수료생</mark>으로 교육 이수 완료 (전체 수료율 63%)
+          - 클린코드, JPA 기반의 웹 개발, 단위 테스트(TDD)와 인수 테스트(ATDD) 기반의 웹 개발, <mark>레거시 코드 리팩터링</mark>, 시스템 아키텍처를 설계 및 운영, 웹 성능 최적화 및 튜닝
   - title: 기타 정보
     layout: list
     content:
