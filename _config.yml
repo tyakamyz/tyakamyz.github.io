@@ -62,39 +62,58 @@ about_content: | # this will include new lines to allow paragraphs
   또한, 꾸준한 성장을 위해 '우아한 테크캠프 Pro' 4기에 참가하여 <mark>우수 수료생</mark>으로 교육을 이수하였습니다.
 
 content:
-  - title: Projects # Title for the section
+  - title: 경력
+    layout: list
+    content:
+      - layout: left
+        title: 스카이랩스
+        sub_title: 백엔드 개발자
+        caption: 2020.07 ~ 2022.06
+        link: https://skylabs.io/ko/
+        quote: >
+          IoT 기술을 활용한 웨어러블 모니터링 서비스
+        description: | # this will include new lines to allow paragraphs
+          - 구독 결제 서비스 개발
+          - 서버 성능 개선
+          - BDD 도입 추진
+          - APP & WEB 서버 개발 및 운영
+      - layout: left
+        title: 한국문헌정보기술
+        sub_title: 웹 개발자
+        caption: 2016.03 ~ 2020.07
+        link: http://www.kait.co.kr/
+        quote: >
+          수집/기록 아카이브 시스템 구축 사업
+        description: | # this will include new lines to allow paragraphs
+          - 서비스 기능 고도화
+          - 색상 검색 기능 개발
+          - DB 마이그레이션 작업
+          - 2명의 그룹원을 이끄는 <mark>그룹장</mark>으로 PL업무 수행
+  - title: 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: 구독 결제 서비스 개발
+        sub_title: 스카이랩스
+        caption: 2021.09 ~ 2022.03
         quote: >
-          Short overview of the project (optional)
+          결제 상품 및 배송 서비스 관리가 가능한 시스템 구축
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+          - 국/외 결제와 배송 관리 등 복잡한 프로세스의 대한 분석 및 설계
+          - 단건 결제와 월정기 결제가 가능하도록 개발
+            - 국내 결제: payple 결제 모듈
+            - 해외 결제: paypal 결제 모듈
+          - 사업상 문제로 오픈이 지연되어 결제 기능과 배송 처리 기능만 구현
+      - layout: left
+        title: 서버 성능 개선
+        sub_title: 스카이랩스
         quote: >
-          Short description of the company (optional)
+          python 기반의 서버 인프라 개선 경험. 메모리 초과로 인한 다운 현상 & 불안정한 서버 환경 개선
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
+          - Jmiter, NewRelic 어플리케이션을 사용하여 [부하 테스트 및 모니터링 진행](https://tong-dev.tistory.com/30?category=959546)
+          - 메모리 초과 장애 개선
+          - 동일한 서버 비용으로 더 많은 트래픽을 처리할 수 있도록 개선
+  - title: 교육 & 학습
     layout: list
     content:
       - layout: top-right
@@ -105,7 +124,7 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: Etc.
+  - title: 기타 정보
     layout: list
     content:
       - layout: left
@@ -115,8 +134,9 @@ content:
           학습한 내용과 업무 경험 등을 정리한 개인 블로그 입니다.
       - layout: left
         title: 상세 기술경력서
+        link: https://github.com/tyakamyz/node_project/raw/master/uploads/1558364242481.pdf
+        link_text: PDF 파일 다운로드
         description: | # this will include new lines to allow paragraphs
-          [PDF 파일 다운로드](https://github.com/tyakamyz/node_project/raw/master/uploads/1558364242481.pdf)<br>
           경력 및 프로젝트 내용을 상세하게 기술한 PDF 파일입니다.
 
 # Footer
