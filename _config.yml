@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
   또한, 꾸준한 성장을 위해 '우아한 테크캠프 Pro' 4기에 참가하여 <mark>우수 수료생</mark>으로 교육을 이수하였습니다.
 
 content:
-  - title: 경력
+  - title: 경력 (6년 2개월)
     layout: list
     content:
       - layout: left
