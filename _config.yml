@@ -84,7 +84,7 @@ content:
         quote: >
           수집/기록 관리시스템 SI/SM 구축 사업
         description: | # this will include new lines to allow paragraphs
-          - 서비스 기능 고도화하여 [감어인M](http://archivecenter.net/kait/archive/Webpage.do?page_id=59) 솔루션 구축
+          - 서비스 기능을 고도화한 [감어인M](http://archivecenter.net/kait/archive/Webpage.do?page_id=59) 솔루션 개발
           - 색상 검색 기능 개발
           - 2명의 그룹원을 이끄는 <mark>그룹장</mark>으로 PL업무 수행
   - title: 대표 프로젝트 # Title for the section
@@ -132,6 +132,34 @@ content:
         description: | # this will include new lines to allow paragraphs
           - [오픈 소스](https://github.com/SvenWoltmann/color-thief-java)와 Color 클래스를 활용하여 대표 색상을 추출한 뒤 RGB 색상 모델을 HSB 색상 모델로 변경하여 범위값을 도출하는 방식으로 개발
           - 9가지 대표 색상으로 검색 가능하도록 개발
+
+  - title: 보유 스킬
+    layout: list
+    content:
+      - layout: left
+        title: BackEnd
+        description: | # this will include new lines to allow paragraphs
+          - Java
+          - Spring, Spring Boot
+          - JPA, myBatis, iBatis
+          - Junit5, Mockito
+          - Maven
+          - IntelliJ
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+          - Oracle, Cubrid, MariaDB
+          - DynamoDB, S3
+          - Tomcat, Jeus
+          - Jenkins, Docker
+          - Git, SVN
+      - layout: left
+        title: 자격증
+        description: | # this will include new lines to allow paragraphs
+          - CCNA
+          - SQLD
+          - 리눅스마스터 2급
+          - 정보처리기사
 
   - title: 교육
     layout: list
