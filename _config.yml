@@ -184,7 +184,7 @@ content:
           학습한 내용과 업무 경험 등을 정리한 개인 블로그 입니다.
       - layout: left
         title: 상세 기술경력서
-        link: https://github.com/tyakamyz/node_project/raw/master/uploads/1558364242481.pdf
+        link: https://github.com/tyakamyz/tyakamyz.github.io/tree/main/file/SiHyun_Career_Description.pdf
         link_text: PDF 파일 다운로드
         description: | # this will include new lines to allow paragraphs
           경력 및 프로젝트 내용을 상세하게 기술한 PDF 파일입니다.
