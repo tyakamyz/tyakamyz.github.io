@@ -109,7 +109,7 @@ content:
         quote: >
           python 기반의 서버 인프라 개선 경험. 메모리 초과로 인한 다운 현상 & 불안정한 서버 환경 개선
         description: | # this will include new lines to allow paragraphs
-          - Jmiter, NewRelic 어플리케이션을 사용하여 [부하 테스트 및 모니터링 진행](https://tong-dev.tistory.com/30?category=959546)
+          - Jmeter, NewRelic 어플리케이션을 사용하여 [부하 테스트 및 모니터링 진행](https://tong-dev.tistory.com/30?category=959546)
           - 메모리 초과 장애 개선
           - 동일한 서버 비용으로 더 많은 트래픽을 처리할 수 있도록 개선
       - layout: left
@@ -141,7 +141,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Java
           - Spring, Spring Boot
-          - JPA, myBatis, iBatis
+          - JPA, myBatis
           - Junit5, Mockito
           - Maven
           - IntelliJ
