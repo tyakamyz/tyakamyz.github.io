@@ -83,8 +83,8 @@ content:
         quote: >
           IoT 기술을 활용한 웨어러블 모니터링 서비스
         description: | # this will include new lines to allow paragraphs
-          - 부하 테스트 및 서버 성능 장애 개선 경험
           - APP & WEB 서버 개발 및 운영
+          - 부하 테스트 및 서버 성능 장애 개선 경험
       - layout: left
         title: 한국문헌정보기술
         sub_title: 웹 개발자
