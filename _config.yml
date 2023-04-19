@@ -100,9 +100,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: APP & WEB 서버 개발 및 운영
+        title: APP & WEB 개발/운영
         sub_title: 스카이랩스
-        caption: 2021.09 ~ 2022.03
+        caption: 2020.07 ~ 2022.05
         quote: >
           안정적인 운영으로 각종 임상 실험 통과 및 인증에 기여
         description: | # this will include new lines to allow paragraphs
@@ -113,7 +113,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any
         title: 서버 성능 개선
-        sub_title: 스카이랩스
+        sub_title:
         quote: >
           python 기반의 서버 인프라 개선 경험. 메모리 초과로 인한 다운 현상 & 불안정한 서버 환경 개선
         description: | # this will include new lines to allow paragraphs
